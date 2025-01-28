@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+echo "List Buckets"
+
+aws s3api list-buckets --query Buckets[].Name
+

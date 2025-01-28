@@ -1,3 +1,11 @@
 #! /usr/bin/env bash
+echo "====List Objects=="
+#check if argument is provided
 
+if [ -z "$1" ]; then
+    echo "No bucket name provided"
+    exit 1
+fi
 
+BUCKET_NAME=$1
+aws s3api list-objects-v2 --bucket $BUCKET_NAME --query Contents[].Key

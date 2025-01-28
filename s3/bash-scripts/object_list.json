@@ -1,0 +1,28 @@
+{
+  "Objects": [
+    {
+      "Key": "/tmp/newfile.txt"
+    },
+    {
+      "Key": "files_1.txt"
+    },
+    {
+      "Key": "files_2.txt"
+    },
+    {
+      "Key": "files_3.txt"
+    },
+    {
+      "Key": "files_4.txt"
+    },
+    {
+      "Key": "files_5.txt"
+    },
+    {
+      "Key": "files_6.txt"
+    },
+    {
+      "Key": "files_7.txt"
+    }
+  ]
+}
